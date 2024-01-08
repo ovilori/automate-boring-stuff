@@ -113,6 +113,7 @@ else:
     class_of_degree.append(degree_class)
 
 #print the details of the semester report
+print('...............................................')
 print ('SEMESTER REPORT')
 print('...............................................')
 for student_name, reg_no in zip(name, registration_no):
