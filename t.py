@@ -6,15 +6,15 @@ for num in number:
         break
     print(num) """
 
-""" name = ['olamide', 'vincent', 'ifeoluwa', 'ilori']
+""" name = ['ahmed', 'john', 'kehinde', 'solomon']
 name = name.reverse()
 for i in name:
     print(name) """
 
-string = 'olamidevincentifeoluwailori'
+string = 'ahmedjohnkehindesolomon'
 print(string[::-1])
 
-test = ['ayo', 'ola', 'simi']
+test = ['paul', 'peter', 'joshua']
 print(len(test))
 
 

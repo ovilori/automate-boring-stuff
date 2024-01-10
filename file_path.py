@@ -4,7 +4,7 @@ import sys, os
 
 #print(Path('spam', 'bacon', 'eggs'))
 
-homeFolder = r'C:Users\Olamide\AI'
+homeFolder = r'C:Users\Alfie\AI'
 subFolder = 'spam'
 fullPath = Path(homeFolder) / Path(subFolder)
 
@@ -21,7 +21,7 @@ fullPath = Path(homeFolder) / Path(subFolder)
 myFiles = ['accoounts.txt', 'details.csv', 'invite.docx']
 #for filename in myFiles:
     #print(Path(Path.cwd(), filename))
-p = Path('C:/Users/\'Lamide\Ilori/Python/network-python/ftp_user_pw_cracker.py')
+p = Path('C:/Users/\'Alfie\Solomon/Python/network-python/ftp_user_pw_cracker.py')
 #print(p.anchor)
 #print(p.parent)
 #print(p.name)
@@ -38,12 +38,12 @@ p = Path('C:/Users/\'Lamide\Ilori/Python/network-python/ftp_user_pw_cracker.py')
 #returns the path directory and base name together
 #print(os.path.split(p))
 #getting the size of the file
-#print(os.path.getsize('C:Users\\\'Lamide Ilori\\Python\\network-python\\ftp_user_pw_cracker.py'))
+#print(os.path.getsize('C:Users\\\'Alfie Solomon\\Python\\network-python\\ftp_user_pw_cracker.py'))
 
 '''
 #print all files in a folder wthat ends with a particluar suffix, their sizes and total size of such  file.
 #print(os.listdir(folder))
-folder = 'C:\\Users\\\'Lamide Ilori\\Python\\automate-borring-stuffs'
+folder = 'C:\\Users\\\'Alfie Solomon\\Python\\automate-borring-stuffs'
 total = 0
 for file in os.listdir(folder):
     if file.endswith('py'):
@@ -53,7 +53,7 @@ for file in os.listdir(folder):
 print(f'Total size of files that ends with py: {total}')
 '''
 #list of files using glob patterns
-folder = Path('C:/Users/\'Lamide\Ilori/Desktop')
+folder = Path('C:/Users/\'Alfie\Solomon/Desktop')
 for filename in folder.glob('*.xlsx'):
     print(filename)
 

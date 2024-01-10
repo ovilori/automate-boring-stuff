@@ -20,8 +20,7 @@ def email_verification(email):
     else:
         print('Invalid email address. Please enter a valid email address.')
 
-email_verification('olailori01@gmail.com')
-email_verification('olam@ide.ilori@gmail.com')
+email_verification('xxxxxxxxxxxx@gmail.com')
 
 
 

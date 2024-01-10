@@ -139,7 +139,7 @@ print ('END OF SEMESTER REPORT')
 server = 'localhost\sqlexpress' 
 database = 'PythonDB' 
 username = 'sa' 
-password = 'Dailystoic1..' 
+password = 'xxxxxxxxxxxxxxxxxxxxx' 
 try:
     cnxn = pyodbc.connect(
         'DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+

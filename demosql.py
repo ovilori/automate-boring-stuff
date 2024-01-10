@@ -13,7 +13,7 @@ def create_connection(host_name, user_name, user_password):
         print(f"The error '{e}' occurred")
     return connection
 
-connection = create_connection("localhost", "sa", "Dailystoic1..") """
+connection = create_connection("localhost", "sa", "xxxxxxxxxxxxxxxxxxxxxxxxx") """
 
 import pyodbc 
 # Some other example server values are
@@ -22,7 +22,7 @@ import pyodbc
 server = 'localhost\sqlexpress' 
 #database = 'MyDNNDatabase' 
 username = 'sa' 
-password = 'Dailystoic1..' 
+password = 'xxxxxxxxxxxx' 
 try:
     cnxn = pyodbc.connect(
         'DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+

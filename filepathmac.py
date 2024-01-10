@@ -5,7 +5,7 @@ print(Path('spam', 'bacon', 'eggs'))
 #print(sys.platform)
 
 #using the / operator to Join paths - replaces the older os.path.join() function.
-homeFolder = Path('/Users/olamideilori')
+homeFolder = Path('/Users/alfiesolomon')
 subFolder = Path('spam')
 print(homeFolder/subFolder)
 
@@ -24,14 +24,14 @@ print(os.path.abspath('.'))
 # returns True if the argument is an absolute path and False if it is a relative path
 print(os.path.isabs('.'))
 
-p = Path('/Users/olamideilori/spam.txt')
+p = Path('/Users/alfiesolomon/spam.txt')
 print(p.anchor)
 print(p.parent) # This is a Path object, not a string. WindowsPath('C:/Users/Al')
 print(p.name)
 print(p.stem)
 print(p.suffix)
 
-print('/Users/olamideilori/spam.txt'.split(os.sep))
+print('/Users/alfiesolomon/spam.txt'.split(os.sep))
 
 # return the size in bytes of the file in the path argument
 print(os.path.getsize('./copy_list.py'))
@@ -57,7 +57,7 @@ p = Path('.')
 # print(list(p.glob('*.txt')))
 
 # opening files with the open() function
-opentext = open('/Users/olamideilori/Documents/study/automate-boring-stuff/newtext.txt')
+opentext = open('/Users/alfiesolomon/Documents/study/automate-boring-stuff/newtext.txt')
 
 # reading contents of files
 # print(opentext.read())

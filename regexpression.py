@@ -19,8 +19,8 @@ area_code, number = phoneNo.groups()
 print(f'Area code is {area_code} and main number is {number}')
 
 #matching multiple groups with Pipe
-multipleRegex = re.compile(r'Olamide|Similoluwa Ilori')
-group1 = multipleRegex.search('My name is Olamide and my sister\'s name is Similoluwa')
+multipleRegex = re.compile(r'Alfie|Anne Ilori')
+group1 = multipleRegex.search('My name is Alfie and my sister\'s name is Anne')
 print(group1.group())
 westRegex = re.compile(r'West(ham|hill|coast|wind)')
 group1 = westRegex.search('I live on Westhill beside the Westcoast after Westwind. I support Westham football club')
@@ -37,7 +37,7 @@ outputRegex = namesRegex.sub('home', 'I have worked from the office the last fou
 print(outputRegex)
 
 agentnamesRegex = re.compile(r'Agent (\w)(\w)\w*')
-output  = agentnamesRegex.sub(r'\1\2********', 'Agent Olamide informed Agent Allen that Agent Joseph & Agent Jamal are double agents.')
+output  = agentnamesRegex.sub(r'\1\2********', 'Agent Alfie informed Agent Allen that Agent Joseph & Agent Jamal are double agents.')
 print(output)
 removespaceRegex = re.compile(r'\s+(\w+)(!)?(!+)?', re.I)
 #removespaceRegex = re.compile(r'(\w+)\s+', re.I)

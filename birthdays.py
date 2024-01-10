@@ -1,7 +1,7 @@
 # family birthdays
 
-birthdays = {'Dad': 'September 9', 'Mum': 'July 10', 'Ayomide': 'April 19', 'Olamide': 'August 13',
-             'Similoluwa': 'July 5'}
+birthdays = {'Alex': 'October 29', 'Polly': 'March 31', 'Arthur': 'June 19', 'Olamide': 'January 13',
+             'Solomon': 'December 15'}
 
 while True:
     name = input('Enter a name (blank to quit): ')
